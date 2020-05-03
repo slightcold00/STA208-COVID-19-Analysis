@@ -26,8 +26,7 @@ Remark: Other appropriate and useful data set will be added in the project. Ques
 
 2.3 Evaluate the influence of important features for each state. 
 
-
-3. Nearby prediction 
+3.Nearby prediction 
 
 3.1 Cluster the regions based on appropriate criterion 
 

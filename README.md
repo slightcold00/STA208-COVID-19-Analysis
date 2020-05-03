@@ -15,16 +15,26 @@ https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail
 
 1.4 Border Crossing Data 
 https://explore.dot.gov/views/BorderCrossingData/Monthly?:isGuestRedirectFromVizportal=y&amp;:embed=y 
+
 Remark: Other appropriate and useful data set will be added in the project. Question of interests 1.Visualize the current available data 
 
 2.Self prediction 
+
 2.1 Find important features for predicting the number of covid-19 cases 
+
 2.2 Summarize the important features with each state 
+
 2.3 Evaluate the influence of important features for each state. 
 
+
 3. Nearby prediction 
+
 3.1 Cluster the regions based on appropriate criterion 
+
 3.2 Evaluate the situation of COVID-19 in each cluster 
+
 3.3 Summarize the important features across different region/cluster 
+
 3.4 Summarize the important features within each cluster/region 
+
 3.5 Evaluate the influence of each state to nearby states

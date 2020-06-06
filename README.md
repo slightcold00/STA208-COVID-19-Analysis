@@ -1,10 +1,14 @@
+# STA 208 Project
+
+## COVID-19 Analysis
+
 ### Group Members:  
 * Zhi Zhang
 * Xiaohan Hu
 * Yanhao Jin
 * Xialin Sang
 
-# Data Sources
+## Data Sources
 
 #### COVID-19 Data Set 
 
@@ -21,10 +25,10 @@ https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail
 
 You are able to reach out all files in GitHub: 
 
-# Data Proprocessing
+## Data Proprocessing
 You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  
-# Visualization
-# Autoregression Analysis and Prediction
-# GCNN
-# Conclusion
+## Visualization
+## Autoregression Analysis and Prediction
+## GCNN
+## Conclusion
 

@@ -28,6 +28,8 @@ You are able to reach out all files in GitHub:
 ## Data Proprocessing
 You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  
 ## Visualization
+Before the analysis, we do a basic visualization for different situations in each state using folium map. You can find steps and results in [visualization.ipynb](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/visualization.ipynb)  
+
 ## Autoregression Analysis and Prediction
 ## GCNN
 ## Conclusion

@@ -22,7 +22,7 @@ https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail
 You are able to reach out all files in GitHub: 
 
 # Data Proprocessing
-You are able to reach out all files in GitHub: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/Data)  
+You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/Data)  
 # Visualization
 # Autoregression Analysis and Prediction
 # GCNN

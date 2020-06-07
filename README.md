@@ -28,7 +28,9 @@ You are able to reach out all files in GitHub:
 ## Data Proprocessing
 You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  
 ## Visualization
-Before the analysis, we do a basic visualization for different situations in each state using folium map. You can find steps and results in [visualization.ipynb](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/visualization.ipynb)  
+Before the analysis, we do a basic visualization for different situations in each state using folium map. You can find steps and results in [visualization.ipynb](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/visualization.ipynb). This provides some insights for comparing the situations of COVID-19 in different states.
+
+Besides, we are access to the average temperature in each state. We visualize the time series data for COVID-19 cases as well as average temperature series in selected states in this notebook [Visualization for time series data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Visualization%20for%20Time%20Series%20Data.ipynb). 
 
 ## Autoregression Analysis and Prediction
 For predicting the confirmed and deaths cases, it is natural to using autoregression model. In the notebook [Autoregression without using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Autoregression%20Analysis%20without%20Temperature.ipynb), we fit ARIMA model for selected states without using other features.

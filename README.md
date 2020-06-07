@@ -41,8 +41,9 @@ Besides, we are access to the average temperature in each state. In this part, w
 
 ## Autoregression Analysis and Prediction
 
-For predicting the confirmed and deaths cases, it is natural to using autoregression model. In the notebook [Autoregression without using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Autoregression%20Analysis%20without%20Temperature.ipynb), we fit ARIMA model for selected states without using other features. 
+In this part, we use the number of confirmed and death cases during first 80 percents of days for our training data. And we use the number of confirmed and death cases during last 20 percents of days for our testing data to evaluate the model.
 
+For predicting the confirmed and deaths cases, it is natural to using autoregression model. In the notebook [Autoregression without using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Autoregression%20Analysis%20without%20Temperature.ipynb), we fit ARIMA model for selected states without using other features. 
 
 To avoid overfitting on the training set, we did not add to many features about the daily temperature. Only average daily temperature is used in autoregression analysis. In this notebook [Autoregression using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208_COVID-19_Autoregression_Analysis_with_Temperature.ipynb), 
 

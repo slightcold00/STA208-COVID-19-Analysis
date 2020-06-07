@@ -5,7 +5,7 @@
 ### Group Members:  
 * Zhi Zhang
 * Xiaohan Hu
-* Yanhao Jin
+* Yanhao Jin 917793578
 * Xialin Sang
 
 ## Data Sources
@@ -31,6 +31,7 @@ You are able to reach out all preprocessed date in: [Data](https://github.com/ya
 Before the analysis, we do a basic visualization for different situations in each state using folium map. You can find steps and results in [visualization.ipynb](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/visualization.ipynb)  
 
 ## Autoregression Analysis and Prediction
+For predicting the confirmed and deaths cases, it is natural to using autoregression model. 
 ## GCNN
 ## Conclusion
 

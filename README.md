@@ -3,7 +3,7 @@
 ## COVID-19 Analysis
 
 ### Group Members:  
-* Zhi Zhang 917834518
+* Zhi Zhang
 * Xiaohan Hu 917861918
 * Yanhao Jin 917793578
 * Xialin Sang 917780316
@@ -23,12 +23,6 @@ https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19#hospit
 
 https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html https://www.census.gov/content/census/en/data/datasets/time-series/demo/popest/2010s-state-total.html 
 
-#### Daily Climate Dataset by Station 
-https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
-
-#### Geographic Data (Stations and Zipcodes With Longitude and Latitude)
-http://federalgovernmentzipcodes.us/free-zipcode-database-Primary.csv
-http://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt
 
 ## Data Proprocessing
 You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  
@@ -58,4 +52,8 @@ We also considered the GCNN (Graph Convulutional Neural Netork). We used it to c
 ## Conclusion and Discussion
 
 In this notebook [Recommended model using autoregression analysis](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Recommended%20Autoregression%20Model%20for%20Prediction.ipynb), we give a brief summary of recommended prediction model. We see that for predicting the death cases, it is useful to add average temperature as a potential feature. For predicting the confirmed cases, the autoregression model without using temperature is already good, especially for Pennsylvania, Florida and Washington.
+
+In this notebook [A Brief Discussion on changing temperature in test data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Discussion%20for%20Changing%20Average%20Daily%20Temperature.ipynb), we give a brief discussion on changing average temperature on the test data to see what would happen if the average temperature was 10 degrees higher and 10 degrees lower. However, we should be careful on this issue. There are many other biological features that will affect the activity of virus, for example, the health condition for each confirmed case. 
+
+Due to the limitation, we did not have the access to these data. Besides, we can not make casual statements on the relationship between temperature and death cases. This result is not quite reliable and need to be improved further.
 

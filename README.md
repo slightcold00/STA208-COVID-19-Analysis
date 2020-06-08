@@ -72,5 +72,5 @@ Overall, adding the temperatures signal enventually helps the learning model con
 
 All of our GCNN results presented so far is kind of not fully trained - stopped before it can improved further, due to time limit. The GCNN articture is complex and requires better machines such as GPU to train, unfortornately, we don't have such facility at this moment, but we encouraged our professor and intreated readers to train fully to see the final result it can reach without resource limits.
 
-In later work, we would like to consider using with pre-defined adjacency matrix $A'$, other ways to build matrix such as using cases itself can also be considered. We may add it by using $\alpha A' + (1-\alpha) A$, as a combination of two. We will also consider the RNN to replace the feedforward structure.
+In later work, we would like to consider using with pre-defined adjacency matrix A', other ways to build matrix such as using cases itself can also be considered. We may add it by using aA'+(1-a)A, as a combination of two. We will also consider the RNN to replace the feedforward structure.
 

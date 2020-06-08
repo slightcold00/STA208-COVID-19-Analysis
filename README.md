@@ -68,9 +68,17 @@ Due to the limitation, we did not have the access to these data. Besides, we can
 
 ### Discussion on GCNN
 
-Overall, adding the temperatures signal enventually helps the learning model converges better, we see that under same final iteration steps, the models have lower training and validation MSE compared to the basic model.
+We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent the structure between instances (zipcodes). We learned the structure through our model. We used it to predict the zip code level and daily covid-19 cases. We mapped the temperature data from the source and linked it with the covid-19 data by zipcodes. Our model can predict granular level (zipcode) cases and is flexible to delete and add other features, also the model can be extended because the structure of our model can be varied as GCNN+MLP or GCNN+RNN, or even GCNN+RL. 
 
-All of our GCNN results presented so far is kind of not fully trained - stopped before it can improved further, due to time limit. The GCNN articture is complex and requires better machines such as GPU to train, unfortornately, we don't have such facility at this moment, but we encouraged our professor and intreated readers to train fully to see the final result it can reach without resource limits.
+- Include Temperatures vs Not Include
 
-In later work, we would like to consider using with pre-defined adjacency matrix A', other ways to build matrix such as using cases itself can also be considered. We may add it by using aA'+(1-a)A, as a combination of two. We will also consider the RNN to replace the feedforward structure.
+Overall, adding the temperatures signal eventually helps the learning model converges better, we see that under the same final iteration steps, the models have lower training and validation MSE compared to the basic model. 
+
+- Complexity 
+
+All of our GCNN results presented so far are kind of not fully trained - stopped before it can be improved further, due to time limit. The GCNN architecture is complex and requires better machines such as GPU to train, unfortunately, we don't have such facility at this moment, but we encouraged our professor and intreated readers to train fully to see the final result it can reach without resource limits. 
+
+- Future Work
+
+In later work, we would like to consider using with pre-defined adjacency matrix $A'$, other ways to build matrix such as using cases itself can also be considered. We may add it by using $\alpha A' + (1-\alpha) A$, as a combination of two. We will also consider the RNN to replace the feedforward structure. 
 

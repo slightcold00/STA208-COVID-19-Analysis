@@ -11,7 +11,6 @@
 ## Raw Data Sources
 
 #### COVID-19 Data Set 
-
 https://github.com/CSSEGISandData/COVID-19 
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series 
 
@@ -23,6 +22,16 @@ https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19#hospit
 
 https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html https://www.census.gov/content/census/en/data/datasets/time-series/demo/popest/2010s-state-total.html 
 
+### Guideline
+
+The files are supposed to read in this order:
+1. Basic visualization: [Condirmed and Death Situation in Each State](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Plots/Condirmed_case_and_death_case.html) [Hopsital Beds and Death Rate Situation in Each State](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Plots/Hopsital_Beds_and_Death_Rate.html) [Population and Confirmed Situation in Each State](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Plots/Population_and_confirmed_case.html) and [visualization.ipynb](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/visualization.ipynb). 
+
+2. Autoregression analysis: [Autoregression without using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20without%20Temperature.ipynb) and [Autoregression using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20with%20Temperature.ipynb).
+
+3. GCNN: [GCNN without temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20without%20Temperature.ipynb) and [GCNN with temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20with%20Temperature.ipynb)
+
+4. Conclusion and Discussion: [Recommended model using autoregression analysis](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Recommended%20Autoregression%20Model%20for%20Prediction.ipynb) and [A Brief Discussion on changing temperature in test data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Discussion%20for%20Changing%20Average%20Daily%20Temperature.ipynb).
 
 ## Data Proprocessing
 You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  

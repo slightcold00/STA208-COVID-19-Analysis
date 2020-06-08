@@ -3,7 +3,7 @@
 ## COVID-19 Analysis
 
 ### Group Members:  
-* Zhi Zhang
+* Zhi Zhang 917834518
 * Xiaohan Hu 917861918
 * Yanhao Jin 917793578
 * Xialin Sang 917780316
@@ -26,7 +26,7 @@ https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail
 #### Daily Climate Dataset by Station 
 https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
 
-### Geographic Data (Stations and Zipcodes With Longitude and Latitude)
+#### Geographic Data (Stations and Zipcodes With Longitude and Latitude)
 http://federalgovernmentzipcodes.us/free-zipcode-database-Primary.csv
 http://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt
 

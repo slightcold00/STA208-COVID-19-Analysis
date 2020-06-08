@@ -34,6 +34,11 @@ Besides, we are access to the average temperature in each state. We visualize th
 
 ## Autoregression Analysis and Prediction
 For predicting the confirmed and deaths cases, it is natural to using autoregression model. In the notebook [Autoregression without using other features](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Autoregression%20Analysis%20without%20Temperature.ipynb), we fit ARIMA model for selected states without using other features.
+
 ## GCNN
+We also considered the GCNN (Graph Convulutional Neural Netork). We used it to construct the zip code level graph and predicted the response: daily cov-19 cases, both for confirmed, and deaths. We considered using the past five days cases number as features. The notebook [GCNN without temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%GCNN%without%Temperature.ipynb) showed the details of methods and results. At the same time, we also included the temperature as additionaal features, in the notebook [GCNN with temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%GCNN%with%Temperature.ipynb). 
+
+
+
 ## Conclusion
 

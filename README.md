@@ -78,11 +78,8 @@ Due to the limitation, we did not have the access to these data. Besides, we can
 
 ### Discussion on GCNN
 
-The predefinition of the adjacency matrix �U is not trivial. The hidden correlations between
-stations may be heterogeneous. Hence, it may be hard to encode them using just one kind of
-metric
+We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent the structure between instances (zipcodes). In stead of using pre-defined adjacency matrix $A'$, the intrinsic structure and heterogeneous pairwise correlations between zipcode can be learned by data after training the deep learning model as we presented. We used it to predict the zip code level and daily covid-19 cases. We mapped the temperature data from the source and linked it with the covid-19 data by zipcodes. Our model can predict granular level (zipcode) cases and is flexible to delete and add other features, also the model can be extended because the structure of our model can be varied as GCNN+MLP or GCNN+RNN, or even variational-GCNN. 
 
-We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent the structure between instances (zipcodes). In stead of using pre-defined adjacency matrix $A'$, the intrinsic structure and  heterogeneous pairwise correlations correlation between zipcode can be learned by data after training the deep learning model as we presented. We used it to predict the zip code level and daily covid-19 cases. We mapped the temperature data from the source and linked it with the covid-19 data by zipcodes. Our model can predict granular level (zipcode) cases and is flexible to delete and add other features, also the model can be extended because the structure of our model can be varied as GCNN+MLP or GCNN+RNN, or even GCNN+RL. 
 
 #### Include Temperatures vs Not Include
 

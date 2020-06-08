@@ -80,15 +80,15 @@ Due to the limitation, we did not have the access to these data. Besides, we can
 
 We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent the structure between instances (zipcodes). We learned the structure through our model. We used it to predict the zip code level and daily covid-19 cases. We mapped the temperature data from the source and linked it with the covid-19 data by zipcodes. Our model can predict granular level (zipcode) cases and is flexible to delete and add other features, also the model can be extended because the structure of our model can be varied as GCNN+MLP or GCNN+RNN, or even GCNN+RL. 
 
-- Include Temperatures vs Not Include
+#### Include Temperatures vs Not Include
 
 Overall, adding the temperatures signal eventually helps the learning model converges better, especially for predicting the dayily "Confirmed" case. We see that after training, the temperature added model has lower training and validation MSE, and also predicts more accurately. 
 
-- Complexity 
+#### Complexity 
 
 All of our GCNN results presented so far are kind of not fully trained - stopped before it can be improved further, due to time limit. The GCNN architecture is complex and requires better machines such as GPU to train, unfortunately, we don't have such facility at this moment, but we encouraged our professor and intreated readers to train fully to see the final result it can reach without resource limits. 
 
-- Future Work
+#### Future Work
 
 In later work, we would like to consider using with pre-defined adjacency matrix $A'$, other ways to build matrix such as using cases itself can also be considered. We may add it by using $\alpha A' + (1-\alpha) A$, as a combination of two. We will also consider the RNN to replace the feedforward structure. 
 

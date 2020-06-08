@@ -32,7 +32,10 @@ https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
 http://federalgovernmentzipcodes.us/free-zipcode-database-Primary.csv
 http://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt
 
-### Guideline
+## Data Proprocessing
+You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  
+
+## Guideline
 
 The files are supposed to read in this order:
 1. Basic visualization: [Condirmed and Death Situation in Each State](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Plots/Condirmed_case_and_death_case.html), [Hopsital Beds and Death Rate Situation in Each State](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Plots/Hopsital_Beds_and_Death_Rate.html), [Population and Confirmed Situation in Each State](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Plots/Population_and_confirmed_case.html), [visualization.ipynb](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/visualization.ipynb) and [Visualization for time series data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Visualization%20for%20Time%20Series%20Data.ipynb). 
@@ -42,9 +45,6 @@ The files are supposed to read in this order:
 3. GCNN: [GCNN without temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20without%20Temperature.ipynb) and [GCNN with temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20with%20Temperature.ipynb)
 
 4. Conclusion and Discussion: [Recommended model using autoregression analysis](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Recommended%20Autoregression%20Model%20for%20Prediction.ipynb) and [A Brief Discussion on changing temperature in test data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Discussion%20for%20Changing%20Average%20Daily%20Temperature.ipynb).
-
-## Data Proprocessing
-You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  
 
 ## Visualization
 

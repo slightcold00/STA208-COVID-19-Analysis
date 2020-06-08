@@ -59,10 +59,18 @@ To avoid overfitting on the training set, we did not add to many features about 
 We also considered the GCNN (Graph Convulutional Neural Netork). We used it to construct the zip code level graph and predicted the response: daily cov-19 cases, both for confirmed, and deaths. We considered using the past five days cases number as features. The notebook [GCNN without temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20without%20Temperature.ipynb) showed the details of methods and results. At the same time, we also included the temperature as additionaal features, in the notebook [GCNN with temperature](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20GCNN%20with%20Temperature.ipynb). 
 
 ## Conclusion and Discussion
-
+### Discussion on Autoregression analysis
 In this notebook [Recommended model using autoregression analysis](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Recommended%20Autoregression%20Model%20for%20Prediction.ipynb), we give a brief summary of recommended prediction model. We see that for predicting the death cases, it is useful to add average temperature as a potential feature. For predicting the confirmed cases, the autoregression model without using temperature is already good, especially for Pennsylvania, Florida and Washington.
 
 In this notebook [A Brief Discussion on changing temperature in test data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Notebooks/STA208%20COVID-19%20Discussion%20for%20Changing%20Average%20Daily%20Temperature.ipynb), we give a brief discussion on changing average temperature on the test data to see what would happen if the average temperature was 10 degrees higher and 10 degrees lower. However, we should be careful on this issue. There are many other biological features that will affect the activity of virus, for example, the health condition for each confirmed case. 
 
 Due to the limitation, we did not have the access to these data. Besides, we can not make casual statements on the relationship between temperature and death cases. This result is not quite reliable and need to be improved further.
+
+### Discussion on GCNN
+
+Overall, adding the temperatures signal enventually helps the learning model converges better, we see that under same final iteration steps, the models have lower training and validation MSE compared to the basic model.
+
+All of our GCNN results presented so far is kind of not fully trained - stopped before it can improved further, due to time limit. The GCNN articture is complex and requires better machines such as GPU to train, unfortornately, we don't have such facility at this moment, but we encouraged our professor and intreated readers to train fully to see the final result it can reach without resource limits.
+
+In later work, we would like to consider using with pre-defined adjacency matrix $A'$, other ways to build matrix such as using cases itself can also be considered. We may add it by using $\alpha A' + (1-\alpha) A$, as a combination of two. We will also consider the RNN to replace the feedforward structure.
 

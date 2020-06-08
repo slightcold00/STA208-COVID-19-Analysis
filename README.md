@@ -23,6 +23,12 @@ https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19#hospit
 
 https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html https://www.census.gov/content/census/en/data/datasets/time-series/demo/popest/2010s-state-total.html 
 
+#### Daily Climate Dataset by Station 
+https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/
+
+### Geographic Data (Stations and Zipcodes With Longitude and Latitude)
+http://federalgovernmentzipcodes.us/free-zipcode-database-Primary.csv
+http://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt
 
 ## Data Proprocessing
 You are able to reach out all preprocessed date in: [Data](https://github.com/yanhaojin/STA208-COVID-19-Analysis/blob/master/Data)  

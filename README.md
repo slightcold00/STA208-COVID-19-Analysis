@@ -78,7 +78,11 @@ Due to the limitation, we did not have the access to these data. Besides, we can
 
 ### Discussion on GCNN
 
-We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent the structure between instances (zipcodes). We learned the structure through our model. We used it to predict the zip code level and daily covid-19 cases. We mapped the temperature data from the source and linked it with the covid-19 data by zipcodes. Our model can predict granular level (zipcode) cases and is flexible to delete and add other features, also the model can be extended because the structure of our model can be varied as GCNN+MLP or GCNN+RNN, or even GCNN+RL. 
+The predefinition of the adjacency matrix �U is not trivial. The hidden correlations between
+stations may be heterogeneous. Hence, it may be hard to encode them using just one kind of
+metric
+
+We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent the structure between instances (zipcodes). In stead of using pre-defined adjacency matrix $A'$, the intrinsic structure and  heterogeneous pairwise correlations correlation between zipcode can be learned by data after training the deep learning model as we presented. We used it to predict the zip code level and daily covid-19 cases. We mapped the temperature data from the source and linked it with the covid-19 data by zipcodes. Our model can predict granular level (zipcode) cases and is flexible to delete and add other features, also the model can be extended because the structure of our model can be varied as GCNN+MLP or GCNN+RNN, or even GCNN+RL. 
 
 #### Include Temperatures vs Not Include
 
@@ -90,7 +94,9 @@ All of our GCNN results presented so far are kind of not fully trained - stopped
 
 #### Future Work
 
-In later work, we would like to consider using with pre-defined adjacency matrix $A'$, other ways to build matrix such as using cases itself can also be considered. We may add it by using $\alpha A' + (1-\alpha) A$, as a combination of two. We will also consider the RNN to replace the feedforward structure. 
+We think that GCNN lacks the expressive power for fully capturing the complex dependencies between topological evolution and time-varying node attributes, so in future work, we would like to first consider using such as variational graph convolutional structure to replace the static graph settings.  
+
+Also, a fully centralized representation of all the instances might cause too much burden for learning, we would like to think of some decentralized training approach. 
 
 ### Other Discussion
 Based on our current analysis, for predicting the confirmed cases, it is better to use ARIMA model for California, Florida, Pennsylviania and Washington, while it is better to use GCNN for New York. For predicting the death cases, it is better to use ARIMA model for Florida and Washington, while it is better to use GCNN for California and Pennsylviania. Besides, there is no big difference in terms of predictions for New York and Florida. Two methods for predicting death cases in these two states are both quite good.

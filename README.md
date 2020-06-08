@@ -22,6 +22,10 @@ https://www.kaggle.com/ikiulian/global-hospital-beds-capacity-for-covid19#hospit
 
 https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html https://www.census.gov/content/census/en/data/datasets/time-series/demo/popest/2010s-state-total.html 
 
+#### State Temperature Dataset
+
+https://www.usclimatedata.com
+
 ### Guideline
 
 The files are supposed to read in this order:

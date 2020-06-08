@@ -3,7 +3,7 @@
 ## COVID-19 Analysis
 
 ### Group Members:  
-* Zhi Zhang
+* Zhi Zhang 917834518
 * Xiaohan Hu 917861918
 * Yanhao Jin 917793578
 * Xialin Sang 917780316

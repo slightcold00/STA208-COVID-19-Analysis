@@ -92,3 +92,5 @@ All of our GCNN results presented so far are kind of not fully trained - stopped
 
 In later work, we would like to consider using with pre-defined adjacency matrix $A'$, other ways to build matrix such as using cases itself can also be considered. We may add it by using $\alpha A' + (1-\alpha) A$, as a combination of two. We will also consider the RNN to replace the feedforward structure. 
 
+### Other Discussion
+Based on our current analysis, for predicting the confirmed cases, it is better to use ARIMA model for California, Florida, Pennsylviania and Washington, while it is better to use GCNN for New York. For predicting the death cases, it is better to use ARIMA model for Florida and Washington, while it is better to use GCNN for California and Pennsylviania. Besides, there is no big difference in terms of predictions for New York and Florida. Two methods for predicting death cases in these two states are both quite good.

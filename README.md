@@ -72,7 +72,7 @@ We considered the GCNN (Graph Convolutional Neural Network) + (MLP) to represent
 
 - Include Temperatures vs Not Include
 
-Overall, adding the temperatures signal eventually helps the learning model converges better, we see that under the same final iteration steps, the models have lower training and validation MSE compared to the basic model. 
+Overall, adding the temperatures signal eventually helps the learning model converges better, especially for predicting the dayily "Confirmed" case. We see that after training, the temperature added model has lower training and validation MSE, and also predicts more accurately. 
 
 - Complexity 
 
